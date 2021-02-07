@@ -9,6 +9,9 @@
         h1 {
             background-color: black;
             color: white ;
+            text-align: center;
+            border: 2px dashed;
+
         }
         
     </style>
@@ -19,10 +22,10 @@
     </header>
     <main>
         <h1> Class 1 Lab</h1>
-        <p style="background-color: teal;color: whitesmoke;">What's your name?</p>
+        <p style="background-color:#18cdcd;color: #212424;">What's your name?</p>
         <p style="background-color:violet;color:black;">How old are you?</p>
         <p style="background-color:chartreuse;color:maroon;">How tall are you?</p>
-        <p style="background-color:darksalmon;color:lavender;">What's your favorite color?</p>
+        <p style="background-color:darksalmon;color:#0b0f24;">What's your favorite color?</p>
 
     </main>
     <footer>
@@ -31,12 +34,13 @@
 
     <script>
         var name = prompt("What's your name");
-        console.log(name);
+        console.log("What's your name?" ,name);
         var age= prompt("how old are you?");
-        console.log(age);
-        var tall= prompt("How tall are you");
-        console.log(tall);
+        console.log("How old are you?", age);
+        var tall= prompt("How tall are you?");
+        console.log("How tall are you?", tall);
         var favColor = prompt("What's your favorite color");
+        console.log("What's your favorite color?" ,favColor)
 
         alert("Hello " + name + " ,your age is: " + age + " ,your tall is: " + tall + " & your favorite color is : " + favColor)
     </script>
